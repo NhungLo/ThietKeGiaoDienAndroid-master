@@ -48,6 +48,8 @@
         </activity>
           <activity android:name="nhungltpk00606_lab6.lab6_tab2">
         </activity>
+        <activity android:name="nhungltpk00606_lab5.lab5"></activity>
+    
         
     </application>
 
