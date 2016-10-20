@@ -16,7 +16,7 @@
         android:paddingBottom="30dp"
         android:paddingTop="10dp"
         android:textStyle="bold"
-        android:textColor="#E80CB8"
+        android:textColor="#05BDFF"
         android:text="Quên Mật Khẩu"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textSize="30sp" />
@@ -28,7 +28,7 @@
      android:layout_gravity="fill_vertical"
      android:text="Nếu bạn quên mật khẩu đừng lo lắng, hãy nhập email của bạn để đặt lại mật khẩu tại đây:"
      android:textAppearance="?android:attr/textAppearanceSmall"
-     android:textColor="#E80CB8"
+     android:textColor="#05BDFF"
      android:textSize="15sp" />
 
     <LinearLayout
@@ -41,9 +41,9 @@
             android:id="@+id/txtTendklab5_dk"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-               android:textColor="#E80CB8"
+               android:textColor="#05BDFF"
                 android:textStyle="bold"
-            android:text="email"
+            android:text="Email"
             android:textSize="20sp" />
 
         <EditText
@@ -51,7 +51,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:ems="10" >
+            android:ems="10"
+            android:hint="Nhập tài khoản email của bạn tại đây" >
 
             <requestFocus />
         </EditText>
@@ -67,29 +68,32 @@
             android:id="@+id/btnResetpass"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/stylebutton"
             android:text="RESET PASSWORD"
             android:textColor="#3114FF"
-            android:background="#E80CB8"
             android:textSize="20sp" />
-
-       
 
     </LinearLayout>
+
  <TextView
-            android:id="@+id/register"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="Đăng ký tài khoản"
-            android:textColor="#05BDFF"
-            android:textSize="20sp" />
+     android:id="@+id/register"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:clickable="true"
+     android:onClick="onClick"
+     android:text="Đăng ký tài khoản"
+     android:textColor="#05BDFF"
+     android:textSize="20sp" />
 
         <TextView
             android:id="@+id/login"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Đăng NHập tài khoản"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:text="Đăng nhập tài khoản"
             android:textColor="#05BDFF"
             android:textSize="20sp" />
     

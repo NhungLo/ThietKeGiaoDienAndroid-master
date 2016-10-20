@@ -40,15 +40,40 @@
             android:name="nhungltpk00606_lab3.lab3"
             android:label="lab 3" >
         </activity>
+        <activity
+            android:name="nhungltpk00606_lab3.lab3_dk"
+            android:label="lab 3 đăng kí" >
+        </activity>
+        <activity
+            android:name="nhungltpk00606_lab3.lab3_quenmk"
+            android:label="lab 3 quên mk" >
+        </activity>
+      <activity android:name="nhungltpk00606_lab4.com.lab4"></activity>
+      <activity android:name="nhungltpk00606_lab4.lab4"></activity>
         <activity android:name="nhungltpk00606_lab6.lab6"
-            android:label="lab 6"
-            >
+            android:label="lab 6">
         </activity>
         <activity android:name="nhungltpk00606_lab6.lab6_tab1">
         </activity>
           <activity android:name="nhungltpk00606_lab6.lab6_tab2">
         </activity>
         <activity android:name="nhungltpk00606_lab5.lab5"></activity>
+        <activity
+            android:name="nhungltpk00606_lab7.com.lab7"
+            android:label="lab 7" >
+        </activity>
+          <activity
+            android:name="nhungltpk00606_lab7.com.lab7_ketqua"
+            android:label="lab 7" >
+        </activity>
+          <activity
+            android:name="nhungltpk00606_lab8.com.lab8"
+            android:label="lab 8" >
+        </activity>
+         <activity
+            android:name="nhungltpk00606_lab8.com.lab8_thongbao"
+            android:label="lab 8" >
+        </activity>
     
         
     </application>

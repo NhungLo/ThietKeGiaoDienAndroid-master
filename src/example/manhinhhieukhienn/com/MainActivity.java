@@ -73,14 +73,14 @@ public class MainActivity extends Activity implements OnClickListener {
 			Intent intent = new Intent(getApplicationContext(),lab6.class);
 			startActivity(intent);
 		}
-//		if(v==btnlab7){
-//			Intent intent = new Intent(getApplicationContext(),lab7.class);
-//			startActivity(intent);
-//		}
-//		if(v==btnlab8){
-//			Intent intent = new Intent(getApplicationContext(),lab8.class);
-//			startActivity(intent);
-//		}
+		if(v==btnlab7){
+			Intent intent = new Intent(getApplicationContext(),lab7.class);
+			startActivity(intent);
+		}
+		if(v==btnlab8){
+			Intent intent = new Intent(getApplicationContext(),lab8.class);
+			startActivity(intent);
+		}
 		
 	}
 

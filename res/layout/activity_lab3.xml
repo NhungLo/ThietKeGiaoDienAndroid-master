@@ -16,7 +16,7 @@
         android:paddingBottom="30dp"
         android:paddingTop="10dp"
         android:textStyle="bold"
-        android:textColor="#E80CB8"
+        android:textColor="#05BDFF"
         android:text="Đăng Nhập Tài Khoản"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textSize="30sp" />
@@ -31,7 +31,7 @@
             android:id="@+id/txtTendklab5_dk"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-               android:textColor="#E80CB8"
+               android:textColor="#05BDFF"
                 android:textStyle="bold"
             android:text="Username"
             android:textSize="20sp" />
@@ -41,7 +41,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:ems="10" >
+            android:ems="10"
+            android:hint="Nhập Tên hoặc email người dùng" 
+            android:textColor="#fff">
 
             <requestFocus />
         </EditText>
@@ -59,7 +61,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
              android:textStyle="bold"
-               android:textColor="#E80CB8"
+               android:textColor="#05BDFF"
             android:text="Password"
             android:textSize="20sp" />
 
@@ -69,7 +71,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
-            android:inputType="textPassword" />
+            android:hint="Mật khẩu"
+            android:inputType="textPassword" 
+            android:textColor="#fff"/>
 
     </LinearLayout>
 
@@ -82,28 +86,32 @@
             android:id="@+id/btnLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/stylebutton"
             android:text="LOG IN"
             android:textColor="#3114FF"
-            android:background="#E80CB8"
             android:textSize="25sp" />
 
         <TextView
-            android:id="@+id/register"
+            android:id="@+id/regissster"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="Đăng ký tài khoản"
             android:textColor="#05BDFF"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:onClick="onClick"                
+       android:clickable="true" />
 
         <TextView
-            android:id="@+id/forgot"
+            android:id="@+id/forrrgot"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="Quên mật khẩu"
             android:textColor="#05BDFF"
-            android:textSize="20sp" />
+            android:textSize="20sp" 
+            android:onClick="onClick"                
+       android:clickable="true"/>
 
     </LinearLayout>
 
