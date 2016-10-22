@@ -66,6 +66,10 @@
             android:name="nhungltpk00606_lab7.com.lab7_ketqua"
             android:label="lab 7" >
         </activity>
+        <activity 
+            android:name="nhungltpk00606_lab7.lab7_kq">
+            
+        </activity>
           <activity
             android:name="nhungltpk00606_lab8.com.lab8"
             android:label="lab 8" >

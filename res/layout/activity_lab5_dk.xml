@@ -62,7 +62,7 @@
             android:text="Email: " />
 
         <EditText
-            android:id="@+id/editText1"
+            android:id="@+id/editTextsoalab7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#E83B0C"
@@ -87,7 +87,7 @@
             android:text="Địa chỉ:" />
 
         <EditText
-            android:id="@+id/editText2"
+            android:id="@+id/editTextsoblab7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#E83B0C"
